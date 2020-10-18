@@ -67,7 +67,8 @@ export default function App ({route, navigation}) {
 
                 <View style={styles.SubmitButton}>
                 <TouchableOpacity
-                onPress={()=> alert('Tdak Ada HomeScreen')}
+               onPress={() => navigation.navigate('Home')}
+               
                 >
                     <Text style={styles.SubmitButtonText}> SignUp </Text>
                 </TouchableOpacity>
